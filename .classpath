@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Activiti Designer Extensions"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/aether-api-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/aether-connector-file-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/aether-connector-wagon-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/aether-impl-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/aether-spi-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/aether-util-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/ant-1.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/ant-launcher-1.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/antlr-runtime-3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/async-http-client-1.6.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/btm-2.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cal10n-api-0.7.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cdi-api-1.0-SP4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/commons-compress-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/commons-exec-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/commons-io-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/commons-net-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cxf-api-2.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cxf-rt-bindings-soap-2.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cxf-rt-bindings-xml-2.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cxf-rt-core-2.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cxf-rt-databinding-jaxb-2.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cxf-rt-frontend-jaxws-2.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cxf-rt-frontend-simple-2.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cxf-rt-transports-http-2.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cxf-rt-ws-addr-2.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/cxf-rt-ws-policy-2.6.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/drools-compiler-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/drools-core-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/drools-persistence-jpa-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/ecj-3.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/freemarker-2.3.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/guava-13.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/h2-1.3.168.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/hibernate-core-4.2.0.SP1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/hibernate-entitymanager-4.2.0.SP1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/httpclient-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/httpcore-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jakarta-regexp-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jaxb-impl-2.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jaxb-xjc-2.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jaxrs-api-2.3.6.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jboss-el-api_2.2_spec-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jboss-logging-3.1.2.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jboss-servlet-api_3.0_spec-1.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jdom-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jms-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/joda-time-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/kie-api-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/kie-ci-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/kie-internal-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/kie-services-client-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/logback-classic-1.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/logback-core-1.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/lucene-analyzers-common-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/lucene-core-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/lucene-queries-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/lucene-queryparser-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/lucene-sandbox-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/mail-1.4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/maven-aether-provider-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/maven-artifact-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/maven-compat-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/maven-core-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/maven-model-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/maven-model-builder-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/maven-plugin-api-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/maven-repository-metadata-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/maven-settings-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/maven-settings-builder-3.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/mvel2-2.1.8.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/neethi-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/netty-3.2.6.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/plexus-cipher-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/plexus-classworlds-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/plexus-component-annotations-1.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/plexus-interpolation-1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/plexus-sec-dispatcher-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/plexus-utils-3.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/protobuf-java-2.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/resteasy-jaxb-provider-2.3.6.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/resteasy-jaxrs-2.3.6.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/rome-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/sisu-guice-3.0.3-no_aop.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/sisu-inject-bean-2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/sisu-inject-plexus-2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/slf4j-ext-1.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/smack-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/solder-api-3.2.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/solder-logging-3.2.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/stax2-api-3.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/wagon-ahc-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/wagon-provider-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/weld-api-1.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/weld-core-1.1.13.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/weld-spi-1.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/woodstox-core-asl-4.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/wsdl4j-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/xmlpull-1.1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/xml-resolver-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/xmlschema-core-2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/xstream-1.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/lib/xz-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-audit-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-bpmn2-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-executor-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-flow-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-flow-builder-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-human-task-audit-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-human-task-core-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-human-task-workitems-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-kie-services-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-persistence-jpa-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-runtime-manager-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-shared-services-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-test-6.0.1-20140120.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jbpm-6.0.1.Final-bin/jbpm-workitems-6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/antlr-runtime.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/drools-compiler.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/drools-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/drools-decisiontables.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/drools-jsr94.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/drools-templates.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-audit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-bpmn2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-flow.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-flow-builder.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jsr94.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/kie-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/kie-internal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/mvel2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/poi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/poi-ooxml.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/protobuf-java.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/xmlpull.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/xpp3_min.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/xstream.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/db/driver/h2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/artifacts.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/content.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/features/org.drools.eclipse.feature_6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/features/org.guvnor.tools.feature_6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/features/org.jboss.tools.runtime.drools.detector.feature_6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/features/org.jbpm.eclipse.feature_6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/plugins/org.drools.eclipse_6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/plugins/org.guvnor.eclipse.webdav_6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/plugins/org.guvnor.tools_6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/plugins/org.jboss.tools.runtime.drools.detector_6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/org.drools.updatesite-6.0.1.Final/plugins/org.jbpm.eclipse_6.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final/jboss-modules.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final/modules/javax/activation/api/main/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/GEF-SDK-3.9.1/eclipse/plugins/org.eclipse.draw2d.doc.isv_3.9.0.201308190730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/GEF-SDK-3.9.1/eclipse/plugins/org.eclipse.draw2d.source_3.9.0.201308190730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/GEF-SDK-3.9.1/eclipse/plugins/org.eclipse.draw2d_3.9.0.201308190730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/GEF-SDK-3.9.1/eclipse/plugins/org.eclipse.gef.doc.isv_3.9.0.201308190730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/GEF-SDK-3.9.1/eclipse/plugins/org.eclipse.gef.examples.ui.pde_3.8.1.201308190730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/GEF-SDK-3.9.1/eclipse/plugins/org.eclipse.gef.source_3.9.0.201308190730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Desktop/jbpm-6.0.1.Final-installer-full (1)/jbpm-installer/lib/GEF-SDK-3.9.1/eclipse/plugins/org.eclipse.gef_3.9.0.201308190730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-bpmn-converter-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-bpmn-converter-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-bpmn-layout-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-bpmn-layout-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-bpmn-model-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-bpmn-model-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-camel-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-camel-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-cdi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-cdi-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-common-rest-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-common-rest-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-cxf-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-cxf-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-diagram-rest-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-diagram-rest-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-engine-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-engine-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-explorer-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-explorer-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-json-converter-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-json-converter-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-ldap-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-ldap-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-modeler-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-modeler-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-mule-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-mule-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-osgi-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-osgi-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-rest-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-rest-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-simple-workflow-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-simple-workflow-5.15.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-spring-5.15.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jshay/Downloads/activiti-5.15.1/activiti-5.15.1/libs/activiti-spring-5.15.1-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
