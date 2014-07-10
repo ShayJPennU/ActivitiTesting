@@ -6,22 +6,40 @@
    
     <startEvent id="my-process" name="my-process" activiti:formKey="wf:submitAdhocTask"></startEvent>
     <endEvent id="endevent1" name="End"></endEvent>
-    <serviceTask id="alfrescoScripttask1" name="Alfresco Script Task" activiti:class="org.alfresco.repo.workflow.activiti.script.AlfrescoScriptDelegate"></serviceTask>
+    
+    <!-- Here we are going to set the variable from the outcome in the user task to print out in this 
+    script task here! -->
+    <serviceTask id="alfrescoScripttask1" name="Alfresco Script Task" activiti:class="org.alfresco.repo.workflow.activiti.script.AlfrescoScriptDelegate">
+		<extensionElements>
+			<activiti:field name="script">
+				<activiti:string>logger.log("The outcome of the review task is: " + wf_reviewOutcome);</activiti:string>
+			</activiti:field>
+		</extensionElements>"    
+    </serviceTask>
+   
+   
+   <!-- Takes the user take and sets the outcome to a variable so we can get it in another task -->
     <userTask id="alfrescoUsertask1" name="Alfresco User Task" activiti:formKey="wf:activitiReviewTask">
-    
-    <extensionElements>
-    	<activiti:taskListener event = "complete" class="orgalfresco.repo.workflow.activiti.tasklistener.ScriptTaskListener">
-    		<activiti:field name = "script">
-    			<activiti:string> execution.setVariable('wf_reviewOutcome', task.getVariable('wf_reviewOutcome'));</activiti:string>
-    		</activiti:field>
-    	</activiti:taskListener>
-    
-    </extensionElements>
-    
-    
-    
+	    <extensionElements>
+	    	<activiti:taskListener event = "complete" class="orgalfresco.repo.workflow.activiti.tasklistener.ScriptTaskListener">
+	    		<activiti:field name = "script">
+	    			<activiti:string> execution.setVariable('wf_reviewOutcome', task.getVariable('wf_reviewOutcome'));</activiti:string>
+	    		</activiti:field>
+	    	</activiti:taskListener>
+	    
+	    </extensionElements>
     </userTask>
-    <sequenceFlow id="flow1" sourceRef="my-process" targetRef="alfrescoUsertask1"></sequenceFlow>
+    <sequenceFlow id="flow1" sourceRef="my-process" targetRef="alfrescoUsertask1">
+    
+	    <extensionElements>
+	    	<activiti:executionListener event="start" class="org.alfresco.repo.workflow.activiti.listener.ScriptExecutionListener">
+	    		<activiti:field name="script">
+	    			<activiti:string>logger.log("Hello, " + scwf_helloName + "!");</activiti:string>
+	    		</activiti:field>
+	    	</activiti:executionListener>
+	    </extensionElements>
+    </sequenceFlow>
+    
     <sequenceFlow id="flow2" sourceRef="alfrescoUsertask1" targetRef="alfrescoScripttask1"></sequenceFlow>
     <sequenceFlow id="flow3" sourceRef="alfrescoScripttask1" targetRef="endevent1"></sequenceFlow>
   
